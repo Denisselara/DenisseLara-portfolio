@@ -72,7 +72,7 @@ que el usuario sienta que se tiene una conversación al ir recorriendo la págin
 ### Iconos redes sociales:
 
 ## - SKETCH DESKTOP
-
+![](img-maqueta/20181106_221708.jpg?raw=true)
 ## - SKETCH MOBIL
-
+![](img-maqueta/20181106_221230.jpg?raw=true)
 ## - CLASES PARA CSS
