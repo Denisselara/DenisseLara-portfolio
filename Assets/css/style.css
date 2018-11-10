@@ -1,0 +1,217 @@
+body{
+  color: white;
+  background-color: black;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding__cero{
+  padding: 0;
+}
+
+.img__logonav{
+  width: 10vh;
+  border-radius: 50%;
+  margin-left: 2vh;
+}
+
+.navbar-brand{
+  float: none;
+}
+
+.navbar-header{
+  height: 9rem;
+}
+
+.navbar{
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-collapse .collapse{
+  position: fixed;
+  padding-top: 15px;
+}
+
+.jumbotron{
+  background-image: url("../img/banner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
+  margin-bottom: 0;
+}
+
+.btn__banner{
+  margin-right: 2vh;
+}
+
+.container__banner{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.titulos{
+  font-size: 1.5 em;
+  text-align: center;
+}
+
+
+.mensaje{
+  font-size: 2 em;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 20vh;
+}
+
+p{
+  font-weight: 300;
+}
+
+.container__servicios{
+display: block;
+}
+
+.servicios__hijo{
+  width: auto;
+  height: auto;
+  padding-top: 5vh;
+  background-color: white;
+}
+
+.thumbnail__servicios{
+  width: 25vh;
+  height: auto;
+  padding: 3vh 2vh 3vh 2vh;
+  margin: 1vh;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+.thumbnail__servicios a{
+  text-decoration: none;
+  color: black;
+}
+
+.thumbnail__servicios a:hover {
+    background-color: #e291d8;
+}
+
+
+.icon__servicios{
+  color: black;
+  text-align: center;
+}
+
+.container__white{
+  background-color: white;
+  padding: 5vh;
+  color: grey;
+  height: 60vh;
+}
+
+.thumbnail{
+  border:none;
+  padding: 3vh 2vh 3vh 2vh;
+  margin: 1vh;
+}
+
+#msj2{
+  background-image: url("../img/banner4b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+#msj3{
+  background-image: url("../img/banner5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.clientes__inner{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.clientes{
+  width: 100px;
+  display: inline-block;
+  list-style: none;
+  padding: 1vh;
+  line-height: 10vh;
+}
+
+.clientes__white{
+  background-color: white;
+}
+
+#diversidad{
+  top: 30vh;
+}
+
+.icon__footer{
+  padding: 2vh;
+}
+
+.form-group{
+  background-color: black;
+}
+
+.form-horizontal{
+  background-color: black;
+}
+
+.well{
+  background-color: black;
+  background-image: none;
+  border: none;
+}
+
+
+h1{
+  font-size: 1.5em;
+  font-family: 'Fahkwang', sans-serif;
+}
+
+p{
+font-size: 1em;
+}
+
+footer{
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding-top:1vh;
+  padding-top: 1vh;
+}
+
+.footer__logos{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__inline {
+  display: inline;
+  list-style: none;
+}
+
+footer img{
+  border-radius: 50%;
+}
+
+footer li{
+  padding-left: 1vh;
+}

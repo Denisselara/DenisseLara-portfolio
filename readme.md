@@ -18,7 +18,7 @@ que el usuario sienta que se tiene una conversación al ir recorriendo la págin
 
  ###  1. Mockup tipo Portafolio :
 
-     . Navbar: básico con logo y 5 link.
+     . Navbar: básico con logo y 4 link.
 
      . Header: Banner - imagen mensaje 01 / con 2 botones (bio y skills)
 
