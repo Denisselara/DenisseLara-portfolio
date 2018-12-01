@@ -6,6 +6,11 @@ body{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.mapa_container{
+  padding: 8vh;
 }
 
 .padding__cero{
@@ -18,12 +23,10 @@ body{
   margin-left: 2vh;
 }
 
-.navbar-brand{
-  float: none;
-}
 
-.navbar-header{
-  height: 9rem;
+.logo_absolute{
+  position: absolute;
+  float: left;
 }
 
 .navbar{
@@ -31,10 +34,6 @@ body{
   border: none;
 }
 
-.navbar-collapse .collapse{
-  position: fixed;
-  padding-top: 15px;
-}
 
 .jumbotron{
   background-image: url("../img/banner2.png");
@@ -53,11 +52,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 30vh;
 }
 
 .titulos{
-  font-size: 1.5 em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -73,15 +72,28 @@ p{
   font-weight: 300;
 }
 
-.container__servicios{
-display: block;
+.container__top{
+margin-top: 7vh;
+}
+
+.container__st{
+  text-align: left;
+  color: black;
 }
 
 .servicios__hijo{
-  width: auto;
-  height: auto;
-  padding-top: 5vh;
+
+  padding-top: 1vh;
   background-color: white;
+}
+
+.titulos__grey{
+  color: #663366;
+  font-size: 2em;
+}
+
+.border_top{
+    border-top:solid 0.3vh #663366;
 }
 
 .thumbnail__servicios{
@@ -100,7 +112,12 @@ display: block;
 }
 
 .thumbnail__servicios a:hover {
-    background-color: #e291d8;
+    background-color: #E5E8E8;
+
+}
+
+.container__bio{
+  text-align: left;
 }
 
 
@@ -109,12 +126,15 @@ display: block;
   text-align: center;
 }
 
+
+
 .container__white{
   background-color: white;
   padding: 5vh;
-  color: grey;
+  color: #663366;
   height: 60vh;
 }
+
 
 .thumbnail{
   border:none;
@@ -190,11 +210,17 @@ font-size: 1em;
 }
 
 footer{
-  background-color: white;
+  background-color: #E5E8E8;
   height: auto;
   width: 100%;
   padding-top:1vh;
   padding-top: 1vh;
+}
+
+.footer__fixed{
+  position: fixed;
+  bottom: 0;
+
 }
 
 .footer__logos{
